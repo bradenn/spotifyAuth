@@ -14,7 +14,7 @@ var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 const env = require("./env.json");
 var client_id = env.client_id; // Your client id
-var client_secret = env.client_secrent; // Your secret
+var client_secret = env.client_secret; // Your secret
 var redirect_uri = env.callback; // Your redirect uri
 
 
